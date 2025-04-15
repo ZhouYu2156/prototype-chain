@@ -39,21 +39,19 @@
 ## 📦 安装
 
 1. 克隆仓库：
-   \`\`\`bash
+
+```bash
    git clone https://github.com/your-username/js-prototype-visualizer.git
-   \`\`\`
+```
 
 2. 启动本地服务器：
-   \`\`\`bash
-
-# 使用 Python 3
-
+```bash
+# 使用 Python3
 python -m http.server
 
 # 或使用 Node.js
-
 npx serve
-\`\`\`
+```
 
 3. 在浏览器中访问 `http://localhost:8000`
 
@@ -72,14 +70,14 @@ npx serve
 
 项目使用 CSS 变量定义主题颜色，可以轻松自定义：
 
-\`\`\`css
+```css
 :root {
 --bg-primary: #1a1a2e;
 --neon-purple: #9d00ff;
 --neon-cyan: #00f0ff;
 --neon-yellow: #f0ff00;
 }
-\`\`\`
+```
 
 ## 📝 待办事项
 
